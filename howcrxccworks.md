@@ -13,3 +13,5 @@ I don't know, but yes, I do know.
 A clear example of how to use the CRX C Compiler.
 What about Barassembly?
 F*ck it, I don't know.
+Okay, I know.
+`crx-bar mycode.bsm -o mycode.bin -F`
