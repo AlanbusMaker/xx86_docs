@@ -24,3 +24,5 @@ dw 33d4
 `color_pixel` simply colors that pixel with a color.
 I don't have idea more what I explain.
 psg is chanpion nooooo I'am of Flamengo:(
+Result (simulated):
+![Um quadrado com ponto branco](20251217_171235.png)
