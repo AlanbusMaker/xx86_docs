@@ -79,3 +79,9 @@ This program demonstrates addition and subtraction with register storage and tex
 Conclusion
 
 The CRX xx86 architecture and Barassembly + C language provide a powerful environment for low-level programming with enhanced control over hardware. Understanding the basic commands and register operations is the first step to mastering this system.
+BUT, the documentation doesn't end here. It's just a glimpse of what's to come soon.
+# All pages
+→ [Home Page](https://github.com/AlanbusMaker/xx86_docs)
+[How crx-cc works](https://github.com/AlanbusMaker/xx86_docs/howcrxccworks.md)
+[How to make a GUI in Barssembly xx86](https://github.com/AlanbusMaker/xx86_docs/howmakegui.md)
+
