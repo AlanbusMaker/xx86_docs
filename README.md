@@ -1,14 +1,20 @@
-# xx86 Documentation 
-Welcome to CRX xx86 Documentation.
----
-# Introducing xx86
--
-The CRX xx86 computer architecture is a CISC (Complex something). Our architecture was designed specifically for our CRX986-1400 and CRX986-1400 processors.
----
-# Basics commands
-The low-level language designed for x86 is not Assembly. Assembly only has support for x86. We use the Barassembly + C language. A powerful language.
+Beleza! Aqui está sua documentação corrigida e organizada, mantendo o estilo técnico mas deixando tudo mais claro e correto:
 
-`add` it's command of **sum**. Basically, it's used to perform complex or simple sums.
+# xx86 Documentation
+Welcome to the CRX xx86 Documentation.
+
+---
+
+# Introducing xx86
+The CRX xx86 computer architecture is a CISC (Complex Instruction Set Computing) system. Our architecture was designed specifically for the CRX986-1400 and CRX986-1400 processors.
+
+---
+
+# Basic Commands
+The low-level language designed for xx86 is not standard Assembly. Assembly only supports x86. We use Barassembly + C, a powerful hybrid language.
+
+`add` is the **addition** command. It’s used to perform simple or complex sums.  
+
 Example:
 ```Barssembly
 mov ex, ax
@@ -17,10 +23,61 @@ mov ex, 1
 add ax ex, bx
 exib "The result of 13+1 is: "+bx
 ```
-## Explanation of new commands:
--
-`exib` It prints to the screen, but you need to configure the BIOS/UEFI to display text; otherwise, when using `exib` it displays literally garbage.
-`mov ax, <number>` Apparently (and yes), this command creates an internal variable with numbers based on the register.
-`add ax ex, bx` It adds 13 + 1, and `exib` shows the result (in this case: "The result of 13+1 is 14").
---
-Finish the documentation after 
+Explanation of new commands
+
+exib prints text to the screen. You need to configure the BIOS/UEFI to display text; otherwise, exib may output unreadable characters.
+
+mov ax, <number> initializes an internal variable in the register with the specified number.
+
+add ax ex, bx adds the values in ax and ex and stores the result in bx. In the example above, exib outputs: "The result of 13+1 is: 14".
+
+
+
+---
+
+Additional Commands
+
+sub ax bx, cx – Subtracts the value in bx from ax and stores the result in cx.
+
+mul ax bx, dx – Multiplies ax by bx and stores the result in dx.
+
+div ax bx, dx – Divides ax by bx and stores the quotient in dx.
+
+jmp <label> – Jumps to a specific label in the code.
+
+cmp ax bx – Compares ax and bx and sets flags for conditional operations.
+
+
+
+---
+
+Notes
+
+Always initialize your registers before performing arithmetic operations.
+
+Ensure your BIOS/UEFI is configured correctly for text output when using exib.
+
+Barassembly + C allows mixing high-level logic with low-level instructions for flexible programming.
+
+
+
+---
+
+Example Program
+
+mov ax, 10
+mov bx, 5
+add ax bx, cx
+exib "10 + 5 = " + cx
+
+sub ax bx, dx
+exib "10 - 5 = " + dx
+
+This program demonstrates addition and subtraction with register storage and text output.
+
+
+---
+
+Conclusion
+
+The CRX xx86 architecture and Barassembly + C language provide a powerful environment for low-level programming with enhanced control over hardware. Understanding the basic commands and register operations is the first step to mastering this system.
