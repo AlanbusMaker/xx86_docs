@@ -1,5 +1,3 @@
-Beleza! Aqui está sua documentação corrigida e organizada, mantendo o estilo técnico mas deixando tudo mais claro e correto:
-
 # xx86 Documentation
 Welcome to the CRX xx86 Documentation.
 
