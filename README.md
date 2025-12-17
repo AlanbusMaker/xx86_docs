@@ -83,5 +83,5 @@ BUT, the documentation doesn't end here. It's just a glimpse of what's to come s
 # All pages
 → [Home Page](https://github.com/AlanbusMaker/xx86_docs)
 [How crx-cc works](https://github.com/AlanbusMaker/xx86_docs/blob/main/howcrxccworks.md)
-[How to make a GUI in Barssembly xx86](https://github.com/AlanbusMaker/xx86_docs/howmakegui.md)
+[How to make a GUI in Barssembly xx86](https://github.com/AlanbusMaker/xx86_docs/blob/main/makegui.md)
 
