@@ -82,6 +82,6 @@ The CRX xx86 architecture and Barassembly + C language provide a powerful enviro
 BUT, the documentation doesn't end here. It's just a glimpse of what's to come soon.
 # All pages
 → [Home Page](https://github.com/AlanbusMaker/xx86_docs)
-[How crx-cc works](https://github.com/AlanbusMaker/xx86_docs/howcrxccworks.md)
+[How crx-cc works](https://github.com/AlanbusMaker/xx86_docs/blob/main/howcrxccworks.md)
 [How to make a GUI in Barssembly xx86](https://github.com/AlanbusMaker/xx86_docs/howmakegui.md)
 
